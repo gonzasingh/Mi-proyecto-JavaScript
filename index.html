@@ -50,34 +50,34 @@
       </div>
     </div>
 
-    <!-- Menú móvil -->
+    <!-- Menú móvil 
     <div class="mobilemenu" id="mobilemenu" hidden>
       <a href="#home">Beranda</a>
       <a href="#shop">Shop</a>
       <a href="#blog">Blog</a>
     </div>
   </header>
-
+-->
   <!-- HERO con “Shop” grande -->
   <section class="hero" id="home">
     <div class="hero__bg">
       <!-- “fondo” tipo interior (sin imagen externa) -->
-      <div class="hero__bgPhoto"></div>
+      <div class="hero__bgPhoto" href="./images/home1.png"></div> 
     </div>
 
     <div class="container hero__content">
       <div class="hero__big">Shop</div>
       <div class="hero__card">
-        <h1 class="hero__title">Give All You Need</h1>
+        <h1 class="hero__title">Todo lo que necesites</h1>
 
         <div class="hero__search">
           <div class="search">
             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
               <path d="M10 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm11 3-6.2-6.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
-            <input id="q" type="search" placeholder="Search on Stuffsus" />
+            <input id="q" type="search" placeholder="Encontralo en Stuffsus" />
           </div>
-          <button class="btn btn--dark" id="btnDoSearch">Search</button>
+          <button class="btn btn--dark" id="btnDoSearch">Buscar</button>
         </div>
       </div>
     </div>
@@ -87,24 +87,24 @@
   <main class="container shop" id="shop">
     <!-- SIDEBAR -->
     <aside class="side">
-      <h2 class="side__title">Category</h2>
+      <h2 class="side__title">Categoría</h2>
 
       <div class="sidecard">
         <button class="sideitem is-active" data-cat="All">
-          <span>All Product</span>
+          <span>Todos los productos</span>
           <span class="pill" id="pillAll">0</span>
         </button>
-        <button class="sideitem" data-cat="Home"><span>For Home</span></button>
-        <button class="sideitem" data-cat="Music"><span>For Music</span></button>
-        <button class="sideitem" data-cat="Phone"><span>For Phone</span></button>
-        <button class="sideitem" data-cat="Storage"><span>For Storage</span></button>
+        <button class="sideitem" data-cat="Home"><span>Domótica</span></button>
+        <button class="sideitem" data-cat="Music"><span>Sonido</span></button>
+        <button class="sideitem" data-cat="Phone"><span>Celulares</span></button>
+        <button class="sideitem" data-cat="Storage"><span>Computación</span></button>
       </div>
 
       <div class="sidecard sidecard--filters">
-        <button class="filter" data-filter="new">New Arrival</button>
-        <button class="filter" data-filter="best">Best Seller</button>
-        <button class="filter" data-filter="off">On Discount</button>
-        <button class="filter filter--clear" id="clearFilters">Clear</button>
+        <button class="filter" data-filter="new">Nuevos ingresos</button>
+        <button class="filter" data-filter="best">Mas vendidos</button>
+        <button class="filter" data-filter="off">En descuento</button>
+        <button class="filter filter--clear" id="clearFilters">Limpiar</button>
       </div>
 
       <div class="sidehint">
@@ -134,9 +134,9 @@
 
       <!-- PAGINACIÓN -->
       <div class="pager">
-        <button class="pager__btn" id="prevPage">← Previous</button>
+        <button class="pager__btn" id="prevPage">← Previos</button>
         <div class="pager__nums" id="pagerNums"></div>
-        <button class="pager__btn" id="nextPage">Next →</button>
+        <button class="pager__btn" id="nextPage">Siguiente →</button>
       </div>
     </section>
   </main>
@@ -144,7 +144,7 @@
   <!-- RECOMMENDATIONS -->
   <section class="container rec">
     <div class="rec__head">
-      <h2>Explore our recomendations</h2>
+      <h2>Explora nuestras recomendaciones</h2>
       <div class="rec__arrows">
         <button class="iconbtn" id="recPrev" aria-label="Anterior">←</button>
         <button class="iconbtn" id="recNext" aria-label="Siguiente">→</button>
@@ -160,7 +160,7 @@
       <div>
         <h3>Ready to Get<br/>Our New Stuff?</h3>
         <div class="newsletter__form">
-          <input id="email" type="email" placeholder="Your Email" />
+          <input id="email" type="email" placeholder="Tu Email" />
           <button class="btn btn--light" id="btnSend">Send</button>
         </div>
       </div>
